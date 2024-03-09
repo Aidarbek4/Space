@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="18sp"
+    android:background="@drawable/cosmo2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/ast"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_gravity="center_horizontal"
+        android:text=" Write to the Astronaut "
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="26dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="332dp"
+        android:layout_height="213dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/cosmo" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/b1"
+        android:layout_width="180sp"
+        android:layout_height="80sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:text="Write a message"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:backgroundTint="#F1D901"
+        app:cornerRadius="40sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_gravity="center_horizontal"
+        android:background="#A6F4E804"
+        android:visibility="invisible" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/b2"
+        android:layout_width="180sp"
+        android:layout_height="80sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:text="Send to ast"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:backgroundTint="#F1D901"
+        app:cornerRadius="20sp" />
+
+</LinearLayout>
+
